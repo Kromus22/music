@@ -16,4 +16,9 @@
   align-items: center;
   gap: 8px;
   font-weight: 600;
+  transition: color .3s ease-in-out;
+}
+
+.catalog__btn-add:hover {
+  color: #e6a93f;
 }
