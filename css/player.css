@@ -40,26 +40,62 @@
 
 .player__icon_stop {
   background-image: url('../img/stop.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
 }
 
 .player__icon_prev {
   background-image: url('../img/prev.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
 }
 
 .player__icon_pause {
   background-image: url('../img/pause.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
 }
 
 .player__icon_play {
   background-image: url('../img/play.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
 }
 
 .player__icon_next {
   background-image: url('../img/next.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
 }
 
 .player__icon_favorite {
   background-image: url('../img/like-o.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+}
+
+.player__icon_stop:hover {
+  opacity: 0.7;
+}
+
+.player__icon_prev:hover {
+  opacity: 0.7;
+}
+
+.player__icon_pause:hover {
+  opacity: 0.7;
+}
+
+.player__icon_play:hover {
+  opacity: 0.7;
+}
+
+.player__icon_next:hover {
+  opacity: 0.7;
+}
+
+.player__icon_favorite:hover {
+  opacity: 0.7;
 }
 
 .player__progress-wrap {
@@ -171,10 +207,22 @@
 
 .player__icon_mute {
   background-image: url('../img/volume-on.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
 }
 
 .player__icon_mute-off {
   background-image: url('../img/volume-off.svg');
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+}
+
+.player__icon_mute:hover {
+  opacity: 0.7;
+}
+
+.player__icon_mute-off:hover {
+  opacity: 0.7;
 }
 
 @media (max-width: 1024px) {
