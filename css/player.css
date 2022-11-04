@@ -74,6 +74,10 @@
   opacity: 1;
 }
 
+.player__icon_favorite_active {
+  filter: drop-shadow(0 0 2px tomato);
+}
+
 .player__icon_stop:hover {
   opacity: 0.7;
 }
